@@ -690,7 +690,8 @@ class _OneDimensionalState extends State<OneDimensional> {
           nPasVar = 0;
           for (var k = 0; k < nPas; k++) {
             Random random = new Random();
-            z = (2 * random.nextDouble() - 1); // рандом
+            z = 2 * random.nextDouble() - 1; // рандом
+            // z = random.nextDouble();
             datX[i][j][k] = datX[i - 1][j][k] +
                 u * timeStep +
                 z *

@@ -52,7 +52,6 @@ class _MyHomePageState extends State<MyHomePage>
   }
 
   // double _formProgress = 0;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
